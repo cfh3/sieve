@@ -4,3 +4,5 @@ for i in range(2, 100):
         print(f"{i} is prime")
         for j in range(i*i, 100, i):
             sieve[j] = False
+    else:
+        print(f"{i} is composite")
